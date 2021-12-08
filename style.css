@@ -1,11 +1,38 @@
 #corpo {
     width: 400px;
     height: 200px;
-    border: 1px solid blue;
+    padding-top: 8px;
+    /* border: 1px solid blue; */
     box-sizing: border-box;
+    font-family:  monospace;
+    background-size: 100%;
+    background-image: url(./Imagens/backgorund.png);
+    background-repeat: no-repeat;
 }
+
+h1{
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
 
 #lista {
     text-transform: uppercase;
+    margin-left: 25px;
+    font-size: 15px;
     
+}
+
+.l1 {
+    list-style-image: url(./Imagens/Insta.png);
+
+}
+
+.l2 {
+    list-style-image: url(./Imagens/Twitter.png);
+}
+
+.l3 {
+    list-style-image: url(./Imagens/Youtube.png);
 }
